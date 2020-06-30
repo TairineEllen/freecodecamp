@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: #f6f5ae;
+  font-family: 'Comfortaa';
+}
+
+.header{
+  padding:50px;
+  text-align: center;
+  color: #565554;
+}
+
+.header__h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header__p{
+  padding-top: 10px;
+}
+
+.survey-form{
+  padding: 40px;
+  background-color: #2e86ab;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: space-between;
+}
+
+.survey-form__input{
+  border-radius: 5px;
+  line-height: 30px;
+  padding-left: 10px;
+  margin-top: 5px;
+  font-family: 'Comfortaa'
+ }
+
+.survey-form__label{
+  font-size: 20px;
+  font-weight: bold;
+  color: #f6f5ae;
+   
+}
+
+.survey-form__label-option{
+  margin-left: 5px;
+}
+
+.survey-form__textarea{
+  resize: vertical;
+  font-family: 'Comfortaa';
+    line-height: 30px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html language="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+
+	<title>Survey Form</title>
+</head>
+
+<body>
+    
+    <header class="header">
+      <h1 class="header__h1" id ="title"> Formulário de pesquisa - FreeCodeCamp</h1>
+      <p class="header__p" id = "description"> Obrigada por nos ajudar a melhorar a plataforma </p>
+    </header>
+
+    <form class="survey-form" id="survey-form">
+    	<label class="survey-form__label" id="name-label">Nome</label>
+    	<input class="survey-form__input" id="name" type="text" placeholder="Insira seu nome" required>
+    	<br>
+    	<label class="survey-form__label" id="email-label">Email</label>
+    	<input class="survey-form__input" id="email" type="email" placeholder="Insira seu email" required>
+    	<br>
+    	<label class="survey-form__label" id="number-label">Idade (opcional)</label>
+    	<input class="survey-form__input" id="number" type="number" placeholder="Insira sua idade" min="13" max="70">
+    	<br>
+    	<label class="survey-form__label">Qual opção descreve melhor sua situação atual?</label>
+    	<select class="survey-form__input" id="dropdown">
+    		<option>Estudante</option>
+    		<option>Emprego tempo integral</option>
+    		<option>Emprego meio período/estagiário (a)</option>
+    		<option>Desempregado (a)</option>
+    		<option>Outro</option>    	 	
+    	</select>
+    	<br>
+    	<label class="survey-form__label">Você recomendaria o FreeCodePen a um amigo?</label>
+    	<div id="radio">    		
+    		<input class="survey-form__input" type = "radio" name = "recomendacao" value = "definitivamente"><label class="survey-form__label-option">Definitivamente</label><br>
+    		<input class="survey-form__input" type = "radio" name = "talvez" value = "talvez"><label class="survey-form__label-option">Talvez</label><br>
+    		<input class="survey-form__input" type = "radio" name = "naosei" value = "naosei"><label class="survey-form__label-option">Não tenho certeza</label><br>
+    	</div>
+    	<br>
+    	<label class="survey-form__label">Qual sua ferramenta ou característica preferida do FreeCodeCamp?</label>
+    	<select class="survey-form__input" id="dropdown">
+    		<option>Desafios</option>
+    		<option>Projetos</option>
+    		<option>Comunidade</option>
+    		<option>Open source</option>
+    	</select>
+    	<br>    	
+    	<label class="survey-form__label">Onde você gostaria de ver melhorias? (Selecione todas que se aplicam)</label>
+    	<div id="checkbox">
+    		<input class="survey-form__input" type = "checkbox" value = "front"><label class="survey-form__label-option">Projetos front-end</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "back"><label class="survey-form__label-option">Projetos back-end</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "dados"><label class="survey-form__label-option">Visualização de dados</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "desafios"><label class="survey-form__label-option">Desafios</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "comunidade"><label class="survey-form__label-option">Comunidade open source</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "git"><label class="survey-form__label-option">Salas de ajuda em git</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "videos"><label class="survey-form__label-option">Videos</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "eventos"><label class="survey-form__label-option">Encontros</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "wiki"><label class="survey-form__label-option">Wiki</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "forum"><label class="survey-form__label-option">Fórum</label><br>
+    		<input class="survey-form__input" type = "checkbox" value = "cursos"><label class="survey-form__label-option">Cursos adicionais</label><br>
+	    </div>
+	    <br>
+	    <label class="survey-form__label">Comentários ou sugestões?</label>
+	    <textarea class="survey-form__textarea" placeholder = "Digite aqui"></textarea>
+	    <br>
+	    <button class="survey-form__input" id = "submit" type="submit">Enviar!</button>
+    </form>
+   
+    
+    
+  
+  </body>
+  
+</html>

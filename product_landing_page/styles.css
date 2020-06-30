@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e1d89f;
+}
+
+.header_img{
+    width: 80px;
+}
+
+.menu-container {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    background-color: #e1d89f;
+    width: 100%;
+}
+
+.menu-nav {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 105px;
+    width: 80%;
+    justify-content: center;
+}
+
+.container_form{
+    border: 1px solid green;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: : center;
+}
+
+.container_saibamais{
+    border: 1px solid blue;
+}
+
+.container_clientes{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.container_encomendas{
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
