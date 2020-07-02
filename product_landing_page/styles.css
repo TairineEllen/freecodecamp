@@ -2,72 +2,213 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
-    background-color: #e1d89f;
+    display: block;
+   background-color: #e1d89f;
+   font-family: 'Muli', sans-serif;
 }
 
-.header_img{
-    width: 80px;
-}
-
-.menu-container {
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 10px 0;
+.main-container{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+}
+
+.header{
     position: fixed;
     top: 0;
-    background-color: #e1d89f;
     width: 100%;
+    min-height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1d89f;
 }
 
-.menu-nav {
-    border: 1px solid #fff;
-    width: 900px;
+.header__logo{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+    max-width: 80px;
+}
+
+.header__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35vw;
+}
+
+li{
+    list-style: none;
+}
+
+.header__link{
+    color: #000;
+    text-decoration: none;
+
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 70px;
+    font-family: 'Poiret One',cursive;
+    font-size: 24px;
+}
+
+.home__p{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    font-family: 'Muli',sans-serif;
+}
+
+.form__input{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+.home__form input[type="submit"]{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    background-color: #c45baa;
+}
+
+.button{
+    padding: 0 20px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 15px 0;
+    border: 0;
+    background-color: #c45baa;
+    height: 40px;
+    text-transform: uppercase;
 }
 
 .container{
-    border: 1px solid red;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#features{
+    margin-top: 30px;
+    font-family: 'Muli',sans-serif;
+}
+
+.grid{
+    display: flex;
+}
+
+.icone{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+}
+
+.description{
+    display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 105px;
-    width: 80%;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+#how-it-works{
+    margin-top: 50px;
+    display: flex;
     justify-content: center;
 }
 
-.container_form{
-    border: 1px solid green;
-    margin: 20px;
+.video{
+    max-width: 560px;
+}
+
+.pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    margin: 10px;
+    border: 1px solid #27474e;
+    border-radius: 3px;
 }
 
-.form{
+.product h2{
+    margin-top: 15px;
+}
+
+.product ol{
+    margin: 15px 0;
+}
+
+.product li{
+    padding: 5px 0;
+    list-style: none;
+}
+
+.title{
+    background-color: #cd8b76;
+    color: #27474e;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: #27474e;
+    padding: 20px;
+}
+
+.footer__ul{
     display: flex;
-    flex-direction: column;
-    align-items: : center;
+    justify-content: flex-end;
 }
 
-.container_saibamais{
-    border: 1px solid blue;
+.footer_links a{
+    padding: 0 10px;
+    text-decoration: none;
+    color:white;
 }
 
-.container_clientes{
-    border: 1px solid black;
-    margin: 20px;
+.footer_links a:active{
+    text-decoration: none;
 }
 
-.container_encomendas{
-    border: 1px solid white;
-    margin-bottom: 20px;
+.footer_links a:visited{
+    text-decoration: none;
+}
+
+.footer span{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    color: #e1d89f;
 }

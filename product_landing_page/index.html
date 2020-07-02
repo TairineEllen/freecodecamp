@@ -3,49 +3,116 @@
 <head>
     <meta charset = "utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <title>Product Landing Page</title>
 </head>
 
 <body>
-    <header id="header" class="header">
-        <div class="menu-container">
-            <img id="header-img" class="header_img" alt="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Notebook_Flat_Icon_Vector.svg/64px-Notebook_Flat_Icon_Vector.svg.png">
-            <nav id="nav-bar" class="menu-nav">
-                <a class="nav-link" href="#saibamais">Saiba mais</a>
-                <a class="nav-link" href="#clientes">Nossos clientes</a>
-                <a class="nav-link" href="#encomendas">Encomendas</a>
-            </nav>
+
+    <main class="main-container">
+
+    <header class="header">
+        <div class="logo">
+            <img class="header__logo" src="https://i.ibb.co/MnB1z40/f41b9407-b174-4b2b-9fb0-e7380d9eaec1-200x200.png" alt="logotipo">
         </div>
+        <nav class="header__menu">
+            <ul class="header__ul">
+                <li><a class="header__link" href="#features">Features</a></li>
+                <li><a class="header__link" href="#how-it-works">How It Works</a></li>
+                <li><a class="header__link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <div class="container_form">
-            <h2>Receba nossa newsletter com as novidades do Reading Out Loud!</h2><br>
-            <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
-                <input name="email" id="email" class="form_input" type="email" placeholder="Digite seu email" required><br>
-                <input id="submit" class="form_submit" type="submit" value="Assinar">
+        <section class="home">
+            <h1 class="home__h2">Cadernos Artesanais</h2>
+            <p class="home__p">Handcrafted, home-made masterpieces</p>
+            <form class="home__form" action="https://www.freecodecamp.com/email-submit">
+                <input class="form__input" name="email" type="email" placeholder="Enter your email adress" required>
+                <input class="button" type="submit" value="Get Started">
             </form>
-        </div>
+        </section>
 
-        <div class="container_saibamais" id="#saibamais">
-            <h2>Materiais</h2><br>
-            <p>Our notebooks use the shiniest paper which is sourced locally. This will increase the longevity of your purchase.</p><br>
-            <h2>Entrega rápida</h2><br>
-            <p>We make sure you recieve your notebook as soon as we have finished making it. We also provide free returns if you are not satisfied.</p><br>
-            <h2>Qualidade assegurada</h2><br>
-            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p><br>
-        </div>
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icone">
+                        <img src="img/award.svg" alt="medalha" width="52" height="52">
+                    </div>
+                    <div class="description">
+                        <h2>Premium Materials</h2>
+                        <p>Our notebooks use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icone">
+                        <img src="img/truck.svg" alt="caminhão"  width="52" height="52">
+                    </div>
+                    <div class="description">
+                        <h2>Fast Shipping</h2>
+                        <p>We make sure you recieve your notebook as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icone">
+                        <img src="img/check-circle.svg" alt="check"  width="52" height="52">
+                    </div>
+                    <div class="description">
+                        <h2>Quality Assurance</h2>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your notebook.</p>
+                    </div>
+                </div>
+            </section>
 
-        <div class="container_clientes" id="#clientes">
-            <div id="video">Video</div>
-        </div>
+            <section id="how-it-works">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9O4kFTOEh6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
 
-        <div class="container_encomendas" id="#encomendas">
-             Encomendas Encomendasv Encomendas Encomendas idhishd jdishdshduh hdishdishadah dhsidhsdhsaudh hdusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhshdhdsihdsudhuh hdsudhuhdsuh usdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudhusdhsudhuadhu huhua dh uadhusadhua huhu hudh uh duhuhuahduhu hh  hdhsdhudh
-        </div>
-    </div>
+            <section id="pricing" class="pricing">
+                <div class="product">
+                    <div class="title">Notebook 1</div>
+                    <h2>$10</h2>
+                    <ol>
+                        <li>Lorem ipsum</li>
+                        <li>dolor sit amet,</li>
+                        <li>consectetur</li>
+                        <li>adipiscing elit</li>
+                    </ol>
+                    <button class="button">select</button>
+                </div>
+                <div class="product">
+                    <div class="title">Notebook 2</div>
+                    <h2>$30</h2>
+                    <ol>
+                        <li>Lorem ipsum</li>
+                        <li>dolor sit amet,</li>
+                        <li>consectetur</li>
+                        <li>adipiscing elit</li>
+                    </ol>
+                    <button class="button">select</button>
+                </div>
+            <div class="product">
+                <div class="title">Notebook 3</div>
+                <h2>$50</h2>
+                <ol>
+                    <li>Lorem ipsum</li>
+                    <li>dolor sit amet,</li>
+                    <li>consectetur</li>
+                    <li>adipiscing elit</li>
+                </ol>
+                <button class="button">select</button>
+            </div>
+        </section>
+    </main>
 
-    <footer>
+    <footer class="footer">
+        <ul class="footer__ul">
+            <li class="footer_links"><a href="#">Privacy</a></li>
+            <li class="footer_links"><a href="#">Terms</a></li>
+            <li class="footer_links"><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2020 - Tairine Ellen</span>
     </footer>
 
 </body>
