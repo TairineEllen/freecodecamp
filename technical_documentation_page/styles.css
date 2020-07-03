@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 10px;
+}
+
+.menu{
+
+    float: left;
+    font-size: 18px;
+    position: fixed;
+    width: 30%;
+
+
+}
+
+h1{
+    font-weight: bold;
+    padding: 15px 5px;
+    margin-left: 30px
+
+}
+
+h2{
+    padding: 20px 0;
+
+}
+
+.menu ul{
+    overflow: scroll;
+    height: 90vh;
+
+}
+
+
+.menu li{
+    list-style: none;
+    padding: 15px 0;
+
+    border-bottom: 1px solid black;
+    width: 100%;
+
+}
+
+.menu a, a:active, a:visited{
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.texto{
+    margin-left: 32%;
+    float: right;
+}
+
+.conteudo{
+    padding: 0 20px;
+    line-height: 30px;
+
+}
+
+.conteudo li{
+    margin-left: 20px;
+}
+
+.code{
+    font-family: monospace;
+    margin-top: 30px;
+    background-color: grey;
+}
