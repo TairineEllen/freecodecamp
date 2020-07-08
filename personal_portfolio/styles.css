@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  background-color: #3b3b58;
+  display: flex;
+  font-family: 'Nunito', cursive;
+  font-weight: bold;
+  justify-content: flex-end;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0px 3px 5px black;
+}
+
+.menu__lista{
+  display: flex;
+  align-items: center;
+}
+
+.menu__link {
+  color: #cea5a1;
+  display: flex;
+  font-size: 28px;
+  padding: 21px 50px;
+  text-decoration: none;
+}
+
+.menu__link:hover{
+  background-color: #cf9893;
+  color: #3b3b58;
+
+}
+
+.sobre{
+  align-items: center;
+  display: flex;
+  background-color: #7a5980;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.sobre__titulo{
+  color: #ffffff;
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  text-shadow: 2px 2px 1px #3b3b58;
+}
+
+.sobre__h4{
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+  }
+
+.trabalhos{
+  background-color: #cf9893;
+  padding: 80px 20px 20px 20px;
+}
+
+.trabalhos__h1{
+  color: #3b3b58;
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.container{
+  background-color: #cf9893;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  height: auto;
+  justify-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.projeto__img{
+  box-shadow: 1px 1px 2px gray;
+}
+
+.projeto__titulo{
+  background-color: #3b3b58;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.projeto__link{
+  text-decoration: none;
+}
+
+.contato{
+  align-items: center;
+  display: flex;
+  background-color: #3b3b58;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.contato__h1{
+  color: #cea5a1;
+  font-family: 'Pacifico', cursive;
+  font-size: 54px;
+  padding-top: 80px;
+}
+
+.contato__info{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+}
+
+.contato__links{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 20px;
+}
+
+.contato__link{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contato__link:hover{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  line-height: 5px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.footer{
+  background-color: #3b3b58;
+  border-top: 5px solid #7a5980;
+  display: flex;
+  font-family: 'Nunito', cursive;
+  font-size: 20px;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
